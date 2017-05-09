@@ -41,7 +41,7 @@ from {opacity:0;}
 to {opacity:1;}
 }
 
-.fb-comments {
-    align-content: center;
+#wrapper {
+    margin: 0 auto;
 }
     
