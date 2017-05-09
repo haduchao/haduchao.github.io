@@ -1,0 +1,44 @@
+.menu_background { 
+animation: 
+    bannerlen 2s forwards;
+    opacity: 0;
+}
+
+.menu a {
+    transition: 0.2s;
+    animation: bannerlen 1s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+.social {
+ animation: 
+    bannerlen 1s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+.banner {
+animation: bannerlen 1.8s forwards;
+animation-delay: 1.3s;
+opacity: 0;
+}
+
+.name {
+animation: chuvao 1s forwards;
+animation-delay: 1.5s;
+opacity: 0;
+}
+
+@-webkit-keyframes chuvao {
+from {opacity:0; transform: translateY(300px);}
+to {opacity:1; transform: translateY(0px);}
+}
+    
+@-webkit-keyframes bannerlen {
+from {opacity:0;}
+to {opacity:1;}
+}
+
+    
+    
