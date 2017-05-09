@@ -16,13 +16,32 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=306453396"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=103386768" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=127769431" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
     <!--custom head HTML-->
   <link rel="stylesheet" href="css/hieuung.css">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9&appId=108073096434844";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-comments" data-href="https://haduchao.github.io/" data-width="600" data-numposts="6"></div>
+  <!--HTML Widget code-->
+  
+<style>
+	.fb-comments, .fb-comments * {
+		width:100% !important;
+	}
+</style>
+
   <!--/*
 
 */
@@ -30,15 +49,20 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  </head>
  <body>
 
-     <div id="fb-root"></div>
-<script>(function(d, s, id) {
+  <!--HTML Widget code-->
+  
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-     
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+  
   <div class="clearfix" id="page"><!-- column -->
    <div class="position_content" id="page_position_content">
     <div class="clearfix colelem" id="pu2768"><!-- group -->
@@ -205,12 +229,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </ul>
      </div>
     </div>
-    <div class="verticalspacer" data-offset-top="3291" data-content-above-spacer="3390" data-content-below-spacer="82"></div>
+    <div class="size_fixed colelem" id="u2960"><!-- custom html -->
+     
+<div class="fb-comments" data-href="https://haduchao.github.io/" data-mobile="false" data-width="100%" data-colorscheme="light" data-action="comment" data-num-posts="5" data-order_by="social"></div>
+
+    </div>
+    <div class="verticalspacer" data-offset-top="4178" data-content-above-spacer="4199" data-content-below-spacer="442"></div>
    </div>
   </div>
-     
-     <div id="wrapper">     <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="600" data-numposts="5"></div></div>
-     
   <!-- Other scripts -->
   <script type="text/javascript">
    window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
