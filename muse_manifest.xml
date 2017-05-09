@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="btvn.com" resolutions="1x" timestamp="1494333270055">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="btvn.com" resolutions="1x" timestamp="1494333959850">
   <folder name="css">
     <file name="site_global.css" crc="306453396"/>
-    <file name="index.css" crc="349775292" ref="index"/>
+    <file name="index.css" crc="103386768" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="fontawesome-webfont.woff" crc="462672289"/>
@@ -38,5 +38,5 @@
     </file>
     <file name="loading.gif" crc="3815509949" ref="index"/>
   </folder>
-  <file name="index.html" crc="4195275082" seo="true" mt="1494333261520" redirect="true"/>
+  <file name="index.html" crc="106355896" seo="true" mt="1494333952880" redirect="true"/>
 </manifest>
