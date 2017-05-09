@@ -2,31 +2,32 @@
 animation: 
     bannerlen 2s forwards;
     opacity: 0;
+    animation-delay: 1s;
 }
 
 .menu a {
     transition: 0.2s;
     animation: bannerlen 1s forwards;
-    animation-delay: 0.5s;
+    animation-delay: 1s;
     opacity: 0;
 }
 
 .social {
  animation: 
     bannerlen 1s forwards;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
     opacity: 0;
 }
 
 .banner {
 animation: bannerlen 1.8s forwards;
-animation-delay: 1.3s;
+animation-delay: 1.8s;
 opacity: 0;
 }
 
 .name {
 animation: chuvao 1s forwards;
-animation-delay: 1.5s;
+animation-delay: 2s;
 opacity: 0;
 }
 
@@ -41,6 +42,6 @@ to {opacity:1;}
 }
 
 .fb-wrapper {
-    margin: 0 auto;
+    margin-left: 200px;
 }
     
